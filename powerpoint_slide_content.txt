@@ -1,0 +1,264 @@
+POWERPOINT SLIDE CONTENT - BIOCHEMISTRY WITH AMAZON Q
+================================================================
+
+SLIDE 1: TITLE SLIDE
+-------------------
+Title: Biochemistry Fundamentals for BMLT Students
+Subtitle: Interactive Learning with Amazon Q AI Assistant
+Presenter: [Your Name]
+Date: [Current Date]
+
+Text Box (Bottom): "Throughout this presentation, you'll see prompts for Amazon Q. These demonstrate how AI can be a powerful assistant for BMLT students and professionals, providing instant, contextual explanations and bridging knowledge gaps."
+
+================================================================
+
+SLIDE 2: INTRODUCTION TO CARBOHYDRATES
+-------------------------------------
+Title: Carbohydrates - The Energy Molecules
+
+Bullet Points:
+• General formula: (CH₂O)ₙ
+• Primary energy source for cells
+• Classification:
+  - Monosaccharides (simple sugars)
+  - Disaccharides (two sugar units)
+  - Polysaccharides (complex carbohydrates)
+• Functions: Energy storage, structural support, cell recognition
+
+================================================================
+
+SLIDE 3: MONOSACCHARIDES
+-----------------------
+Title: Monosaccharides - Building Blocks
+
+Content:
+• Common examples: Glucose, Fructose, Galactose
+• Ring structures: Pyranose (6-membered), Furanose (5-membered)
+• Anomers: α (axial OH) and β (equatorial OH)
+• Clinical importance: Blood glucose monitoring
+
+[Include molecular structure diagrams of glucose in linear and ring forms]
+
+================================================================
+
+SLIDE 4: ISOMERS AND STEREOISOMERS
+---------------------------------
+Title: Stereochemistry in Sugars
+
+Content:
+• D and L configurations (based on glyceraldehyde)
+• Enantiomers: mirror images
+• Epimers: differ at one carbon
+• Only D-sugars are metabolically active in humans
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "Can you explain the clinical significance of D-glucose vs. L-glucose in human metabolism?"
+
+================================================================
+
+SLIDE 5: DISACCHARIDES
+---------------------
+Title: Disaccharides - Two Sugar Units
+
+Content:
+• Formed by glycosidic bonds
+• Common types:
+  - Sucrose (glucose + fructose)
+  - Lactose (glucose + galactose) 
+  - Maltose (glucose + glucose)
+• Hydrolysis breaks glycosidic bonds
+
+================================================================
+
+SLIDE 6: DISACCHARIDE STRUCTURES
+-------------------------------
+Title: Key Disaccharide Structures
+
+Content:
+• Sucrose: α(1→2) glycosidic bond
+• Lactose: β(1→4) glycosidic bond
+• Maltose: α(1→4) glycosidic bond
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "Design a simple lab protocol to differentiate between sucrose, lactose, and maltose in unknown solutions."
+
+[Include structural diagrams of all three disaccharides]
+
+================================================================
+
+SLIDE 7: POLYSACCHARIDES
+-----------------------
+Title: Complex Carbohydrates
+
+Content:
+• Starch: Energy storage in plants
+  - Amylose: linear α(1→4) bonds
+  - Amylopectin: branched with α(1→6) bonds
+• Glycogen: Energy storage in animals
+• Cellulose: Structural component in plants
+
+================================================================
+
+SLIDE 8: CLINICAL ASPECTS OF CARBOHYDRATES
+-----------------------------------------
+Title: Carbohydrates in Clinical Practice
+
+Content:
+• Diabetes Mellitus: Glucose metabolism disorders
+• Lactose Intolerance: Lactase enzyme deficiency
+• Glycogen Storage Diseases: Enzyme defects
+• Laboratory tests: Glucose tolerance, HbA1c
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "Compare and contrast the laboratory findings for a patient with Diabetes Mellitus and a patient with Lactose Intolerance."
+
+================================================================
+
+SLIDE 9: INTRODUCTION TO PROTEINS
+--------------------------------
+Title: Proteins - The Workhorses of Life
+
+Content:
+• Made of amino acid building blocks
+• Connected by peptide bonds
+• Functions:
+  - Enzymes (catalysis)
+  - Structure (collagen)
+  - Transport (hemoglobin)
+  - Defense (antibodies)
+
+================================================================
+
+SLIDE 10: AMINO ACID STRUCTURE
+-----------------------------
+Title: Amino Acids - Protein Building Blocks
+
+Content:
+• General structure: NH₂-CHR-COOH
+• 20 standard amino acids
+• Classification by R group:
+  - Nonpolar (hydrophobic)
+  - Polar (hydrophilic)
+  - Charged (acidic/basic)
+• Essential vs. non-essential
+
+================================================================
+
+SLIDE 11: PEPTIDE BOND FORMATION
+-------------------------------
+Title: Linking Amino Acids
+
+Content:
+• Condensation reaction (dehydration synthesis)
+• Peptide bond characteristics:
+  - Partial double bond character
+  - Planar structure
+  - Trans configuration
+• Primary structure = amino acid sequence
+
+================================================================
+
+SLIDE 12: PROTEIN STRUCTURE LEVELS
+---------------------------------
+Title: The Four Levels of Protein Structure
+
+Content:
+• Primary: Linear amino acid sequence
+• Secondary: Local folding (α-helices, β-sheets)
+• Tertiary: Overall 3D shape
+• Quaternary: Multiple subunit assembly
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "Using the example of sickle cell anemia, explain how a change in primary structure affects all subsequent levels of protein structure and leads to disease."
+
+================================================================
+
+SLIDE 13: PROTEIN DENATURATION
+-----------------------------
+Title: Protein Denaturation
+
+Content:
+• Loss of native structure
+• Causes: Heat, pH changes, chemicals, radiation
+• Reversible vs. irreversible
+• Laboratory applications: Protein precipitation
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "List common reagents used in a clinical lab that can cause protein denaturation and explain how this principle is used in diagnostic tests."
+
+================================================================
+
+SLIDE 14: ENZYMES AS PROTEINS
+----------------------------
+Title: Enzymes - Biological Catalysts
+
+Content:
+• Protein catalysts that speed reactions
+• Active site specificity
+• Factors affecting activity:
+  - Temperature
+  - pH
+  - Substrate concentration
+  - Inhibitors
+
+================================================================
+
+SLIDE 15: CLINICAL ASPECTS OF PROTEINS
+-------------------------------------
+Title: Proteins in Clinical Diagnostics
+
+Content:
+• Serum protein electrophoresis (SPE)
+• Albumin: maintains osmotic pressure
+• Globulins: immune function
+• Enzyme markers: ALT, AST, CK
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "Interpret a hypothetical serum protein electrophoresis (SPE) report showing a low albumin peak and a large, broad peak in the gamma region."
+
+================================================================
+
+SLIDE 16: THE FUTURE OF BMLT WITH AI
+-----------------------------------
+Title: Enhancing Laboratory Science with Amazon Q
+
+Content:
+✓ Instant Knowledge Access
+  Quick refreshers on complex pathways during lab work
+
+✓ Protocol Assistance  
+  Guidance on procedures, calculations, quality control
+
+✓ Clinical Correlation
+  Bridge gap between lab results and clinical meaning
+
+✓ Troubleshooting
+  Suggest causes for unexpected experimental results
+
+AMAZON Q PROMPT BOX:
+🤖 Ask Amazon Q: "What are the potential benefits and limitations of using AI assistants like you in a medical laboratory setting?"
+
+================================================================
+
+SLIDE 17: CONCLUSION
+-------------------
+Title: Key Takeaways
+
+Content:
+• Carbohydrates provide energy and structural support
+• Proteins perform diverse biological functions
+• Structure determines function in biochemistry
+• AI tools like Amazon Q enhance learning and practice
+• Future BMLT professionals will integrate technology with expertise
+
+Thank you for your attention!
+Questions?
+
+================================================================
+
+DESIGN NOTES:
+- Use blue/green color scheme for biochemistry theme
+- Include molecular structure diagrams where indicated
+- Amazon Q prompt boxes should be visually distinct (different color/border)
+- Add lab equipment icons for BMLT context
+- Use consistent fonts and formatting throughout

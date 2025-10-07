@@ -1,0 +1,43 @@
+HOW TO CREATE A SHAREABLE PDF LINK
+==================================
+
+STEP 1: Convert HTML to PDF
+---------------------------
+Option A - Using Browser:
+1. Open your HTML file in Chrome/Edge
+2. Press Ctrl+P (Print)
+3. Destination: Save as PDF
+4. Save as "BMLT_Biochemistry_Notes.pdf"
+
+Option B - Online Converter:
+1. Go to html-pdf-converter.com
+2. Upload your HTML file
+3. Download the PDF
+
+STEP 2: Upload PDF to Cloud Storage
+----------------------------------
+Option A - Google Drive:
+1. Upload PDF to Google Drive
+2. Right-click → Share
+3. Change to "Anyone with the link can view"
+4. Copy the shareable link
+
+Option B - Dropbox:
+1. Upload PDF to Dropbox
+2. Click Share
+3. Create link
+4. Copy public link
+
+Option C - GitHub:
+1. Upload PDF to GitHub repository
+2. Click on PDF file
+3. Click "Download" button
+4. Copy that URL
+
+STEP 3: Your PDF Link Ready!
+---------------------------
+Share the link - anyone can access and download the PDF.
+
+FASTEST METHOD: Google Drive
+- Upload PDF → Share → Copy link
+- Takes 2 minutes total

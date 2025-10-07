@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detailed Biochemistry Presentation</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%);
+            color: #1e3a8a;
+            line-height: 1.6;
+        }
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #1e3a8a, #059669);
+            color: white;
+            padding: 40px;
+            border-radius: 15px;
+            margin-bottom: 30px;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+        .slide {
+            background: white;
+            margin: 25px 0;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-left: 6px solid #1e3a8a;
+        }
+        .slide h2 {
+            color: #1e3a8a;
+            border-bottom: 3px solid #059669;
+            padding-bottom: 15px;
+            margin-bottom: 25px;
+            font-size: 28px;
+        }
+        .part-header {
+            background: linear-gradient(135deg, #059669, #10b981);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            border-radius: 12px;
+            margin: 40px 0 25px 0;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        .diagram-container {
+            background: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        .molecular-structure {
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            background: #1e293b;
+            color: #f1f5f9;
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            white-space: pre-line;
+        }
+        .clinical-box {
+            background: #fef3c7;
+            border-left: 4px solid #f59e0b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .lab-protocol {
+            background: #ecfdf5;
+            border-left: 4px solid #10b981;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 0 8px 8px 0;
+        }
+        .ai-prompt {
+            background: #fff7ed;
+            border: 2px solid #ff9900;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 25px 0;
+            position: relative;
+        }
+        .ai-link {
+            display: inline-block;
+            background: #ff9900;
+            color: white;
+            padding: 12px 25px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+            margin-top: 15px;
+            transition: all 0.3s;
+        }
+        .ai-link:hover {
+            background: #e68900;
+            transform: translateY(-2px);
+        }
+        .slide-number {
+            background: #6366f1;
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            float: right;
+            font-weight: bold;
+        }
+        .detailed-content {
+            font-size: 16px;
+            margin: 15px 0;
+        }
+        .key-points {
+            background: #f0f9ff;
+            border-left: 4px solid #3b82f6;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        .formula {
+            background: #1e293b;
+            color: #f1f5f9;
+            padding: 10px 15px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            display: inline-block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧬 Biochemistry Fundamentals for BMLT Students</h1>
+        <h2>Comprehensive Study Guide with Interactive Learning</h2>
+        <p>Master the molecular basis of life through detailed explanations and visual representations</p>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 1</span>
+        <h2>📋 Course Introduction</h2>
+        <div class="detailed-content">
+            <p><strong>Welcome to Biochemistry Fundamentals!</strong> This comprehensive course is designed specifically for Biomedical Laboratory Technology (BMLT) students who will be working at the intersection of chemistry and medicine.</p>
+            
+            <div class="key-points">
+                <h3>🎯 Learning Objectives:</h3>
+                <ul>
+                    <li>Understand the molecular structure and function of biological macromolecules</li>
+                    <li>Connect biochemical principles to clinical laboratory practices</li>
+                    <li>Develop skills in interpreting biochemical test results</li>
+                    <li>Integrate modern AI tools for enhanced learning and problem-solving</li>
+                </ul>
+            </div>
+            
+            <p>Throughout this presentation, you'll encounter interactive elements that demonstrate how artificial intelligence can enhance your understanding and professional practice in medical laboratory science.</p>
+        </div>
+    </div>
+
+    <div class="part-header">
+        <h2>🍯 Part 1: Carbohydrates - The Energy Molecules</h2>
+        <p>Understanding the structure, function, and clinical significance of sugars and complex carbohydrates</p>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 2</span>
+        <h2>Introduction to Carbohydrates</h2>
+        <div class="detailed-content">
+            <p><strong>Carbohydrates</strong> are the most abundant organic molecules on Earth and serve as the primary energy source for most living organisms. The name "carbohydrate" literally means "carbon with water."</p>
+            
+            <div class="formula">General Formula: (CH₂O)ₙ where n ≥ 3</div>
+            
+            <div class="key-points">
+                <h3>🔬 Classification System:</h3>
+                <ul>
+                    <li><strong>Monosaccharides:</strong> Simple sugars (glucose, fructose, galactose)</li>
+                    <li><strong>Disaccharides:</strong> Two monosaccharide units (sucrose, lactose, maltose)</li>
+                    <li><strong>Oligosaccharides:</strong> 3-10 monosaccharide units</li>
+                    <li><strong>Polysaccharides:</strong> Many monosaccharide units (starch, glycogen, cellulose)</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🏥 Clinical Importance:</h3>
+                <p>In medical laboratories, carbohydrate analysis is crucial for:</p>
+                <ul>
+                    <li>Diabetes diagnosis and monitoring (glucose, HbA1c)</li>
+                    <li>Metabolic disorder screening</li>
+                    <li>Nutritional assessment</li>
+                    <li>Enzyme deficiency detection</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 3</span>
+        <h2>Monosaccharides - Building Blocks</h2>
+        <div class="detailed-content">
+            <p>Monosaccharides are the simplest carbohydrates and cannot be hydrolyzed into smaller carbohydrate units. They serve as building blocks for all other carbohydrates.</p>
+            
+            <div class="diagram-container">
+                <h3>🔬 Glucose Structure (C₆H₁₂O₆)</h3>
+                <div class="molecular-structure">
+Linear Form:        Ring Form (β-D-Glucopyranose):
+    CHO                     CH₂OH
+    |                       |
+H—C—OH                     O     OH
+    |                    /   \   /
+HO—C—H                  HO     C
+    |                        / \
+H—C—OH                     OH   OH
+    |
+H—C—OH
+    |
+   CH₂OH
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>📊 Important Monosaccharides:</h3>
+                <ul>
+                    <li><strong>Glucose:</strong> Primary cellular fuel, normal blood level 70-100 mg/dL</li>
+                    <li><strong>Fructose:</strong> Fruit sugar, metabolized primarily in liver</li>
+                    <li><strong>Galactose:</strong> Component of lactose, converted to glucose in liver</li>
+                    <li><strong>Ribose:</strong> Component of RNA and ATP</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🩺 Ring Formation (Cyclization):</h3>
+                <p>In aqueous solution, monosaccharides exist predominantly in ring forms:</p>
+                <ul>
+                    <li><strong>Pyranose:</strong> 6-membered ring (glucose, galactose)</li>
+                    <li><strong>Furanose:</strong> 5-membered ring (fructose, ribose)</li>
+                    <li><strong>Anomers:</strong> α (axial OH) and β (equatorial OH) forms</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 4</span>
+        <h2>Stereochemistry in Sugars</h2>
+        <div class="detailed-content">
+            <p>Stereochemistry is crucial in biochemistry because biological systems are highly stereospecific. Enzymes can distinguish between different stereoisomers.</p>
+            
+            <div class="diagram-container">
+                <h3>🔄 D and L Configurations</h3>
+                <div class="molecular-structure">
+D-Glyceraldehyde          L-Glyceraldehyde
+    CHO                       CHO
+    |                         |
+H—C—OH                   HO—C—H
+    |                         |
+   CH₂OH                     CH₂OH
+   
+D-Glucose                 L-Glucose
+(Naturally occurring)     (Synthetic)
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>🧬 Types of Isomerism:</h3>
+                <ul>
+                    <li><strong>Enantiomers:</strong> Non-superimposable mirror images (D vs L)</li>
+                    <li><strong>Epimers:</strong> Differ at only one chiral carbon (glucose vs galactose)</li>
+                    <li><strong>Anomers:</strong> Differ at the anomeric carbon (α vs β)</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🏥 Clinical Significance:</h3>
+                <p><strong>Why only D-sugars?</strong> Human enzymes evolved to metabolize only D-form sugars. L-glucose cannot be metabolized and passes through the body unchanged, making it a potential zero-calorie sweetener.</p>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Interactive Learning:</strong>
+            <p>Explore the clinical implications of sugar stereochemistry and enzyme specificity in human metabolism.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=Can%20you%20explain%20the%20clinical%20significance%20of%20D-glucose%20vs.%20L-glucose%20in%20human%20metabolism?" target="_blank" class="ai-link">Explore with AI Assistant</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 5</span>
+        <h2>Disaccharides - Linked Sugar Units</h2>
+        <div class="detailed-content">
+            <p>Disaccharides are formed when two monosaccharides are joined by a glycosidic bond through a dehydration reaction. They are important dietary components and metabolic intermediates.</p>
+            
+            <div class="diagram-container">
+                <h3>🔗 Glycosidic Bond Formation</h3>
+                <div class="molecular-structure">
+Glucose + Glucose → Maltose + H₂O
+   |         |         |
+   OH    +   OH   →   O-link   +   H₂O
+   
+α(1→4) glycosidic bond in maltose
+β(1→4) glycosidic bond in lactose
+α(1→2) glycosidic bond in sucrose
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>📋 Major Disaccharides:</h3>
+                <ul>
+                    <li><strong>Sucrose:</strong> Glucose + Fructose (table sugar)</li>
+                    <li><strong>Lactose:</strong> Glucose + Galactose (milk sugar)</li>
+                    <li><strong>Maltose:</strong> Glucose + Glucose (malt sugar)</li>
+                    <li><strong>Trehalose:</strong> Glucose + Glucose (mushroom sugar)</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🧪 Laboratory Analysis:</h3>
+                <p>Disaccharide analysis involves:</p>
+                <ul>
+                    <li><strong>Reducing sugar tests:</strong> Benedict's, Fehling's reagents</li>
+                    <li><strong>Enzymatic assays:</strong> Specific enzymes for each disaccharide</li>
+                    <li><strong>Chromatography:</strong> Separation and identification</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 6</span>
+        <h2>Detailed Disaccharide Structures</h2>
+        <div class="detailed-content">
+            <div class="diagram-container">
+                <h3>🔬 Structural Analysis</h3>
+                <div class="molecular-structure">
+SUCROSE [α-D-Glucose(1→2)β-D-Fructose]
+- Non-reducing sugar (no free anomeric carbon)
+- Cleaved by invertase enzyme
+- Most common dietary sugar
+
+LACTOSE [β-D-Galactose(1→4)β-D-Glucose]  
+- Reducing sugar (free anomeric carbon on glucose)
+- Cleaved by lactase enzyme
+- Found only in mammalian milk
+
+MALTOSE [α-D-Glucose(1→4)α-D-Glucose]
+- Reducing sugar (free anomeric carbon)
+- Cleaved by maltase enzyme  
+- Product of starch digestion
+                </div>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>🧪 Laboratory Differentiation Protocol:</h3>
+                <ol>
+                    <li><strong>Benedict's Test:</strong> Lactose and maltose (+), Sucrose (-)</li>
+                    <li><strong>Barfoed's Test:</strong> Distinguishes monosaccharides from disaccharides</li>
+                    <li><strong>Enzymatic Tests:</strong>
+                        <ul>
+                            <li>Invertase: Cleaves sucrose → glucose + fructose</li>
+                            <li>Lactase: Cleaves lactose → glucose + galactose</li>
+                            <li>Maltase: Cleaves maltose → glucose + glucose</li>
+                        </ul>
+                    </li>
+                    <li><strong>Chromatography:</strong> TLC or HPLC for definitive identification</li>
+                </ol>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Laboratory Skills:</strong>
+            <p>Learn to design and execute protocols for identifying unknown carbohydrates in clinical samples.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=Design%20a%20simple%20lab%20protocol%20to%20differentiate%20between%20sucrose,%20lactose,%20and%20maltose%20in%20unknown%20solutions." target="_blank" class="ai-link">Get Protocol Guidance</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 7</span>
+        <h2>Polysaccharides - Complex Carbohydrates</h2>
+        <div class="detailed-content">
+            <p>Polysaccharides are large molecules composed of many monosaccharide units. They serve structural and energy storage functions in living organisms.</p>
+            
+            <div class="diagram-container">
+                <h3>🏗️ Structural Organization</h3>
+                <div class="molecular-structure">
+STARCH (Plant Energy Storage)
+├── Amylose: Linear α(1→4) glucose chains
+│   - 20-25% of starch
+│   - Helical structure
+│   - Blue color with iodine
+│
+└── Amylopectin: Branched glucose polymer  
+    - 75-80% of starch
+    - α(1→4) backbone, α(1→6) branches every 25-30 units
+    - Purple color with iodine
+
+GLYCOGEN (Animal Energy Storage)
+- Highly branched glucose polymer
+- α(1→6) branches every 8-12 units
+- Stored in liver (100g) and muscle (400g)
+- Rapid mobilization for energy
+
+CELLULOSE (Plant Structure)
+- Linear β(1→4) glucose chains
+- Hydrogen bonding between chains
+- Indigestible by humans (no cellulase enzyme)
+                </div>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🏥 Clinical Applications:</h3>
+                <ul>
+                    <li><strong>Glycogen Storage Diseases:</strong> Enzyme deficiencies affecting glycogen metabolism</li>
+                    <li><strong>Dietary Fiber:</strong> Cellulose and other indigestible polysaccharides</li>
+                    <li><strong>Blood Glucose Regulation:</strong> Glycogen breakdown and synthesis</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 8</span>
+        <h2>Clinical Aspects of Carbohydrates</h2>
+        <div class="detailed-content">
+            <div class="clinical-box">
+                <h3>🩺 Diabetes Mellitus</h3>
+                <p><strong>Pathophysiology:</strong> Defective insulin production or action leading to hyperglycemia</p>
+                <ul>
+                    <li><strong>Type 1:</strong> Autoimmune destruction of β-cells</li>
+                    <li><strong>Type 2:</strong> Insulin resistance and relative insulin deficiency</li>
+                </ul>
+                
+                <h4>Laboratory Tests:</h4>
+                <ul>
+                    <li><strong>Fasting Glucose:</strong> ≥126 mg/dL (7.0 mmol/L)</li>
+                    <li><strong>Random Glucose:</strong> ≥200 mg/dL (11.1 mmol/L)</li>
+                    <li><strong>HbA1c:</strong> ≥6.5% (reflects 2-3 month average)</li>
+                    <li><strong>Oral Glucose Tolerance Test:</strong> 2-hour value ≥200 mg/dL</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🥛 Lactose Intolerance</h3>
+                <p><strong>Pathophysiology:</strong> Deficiency of lactase enzyme in small intestine</p>
+                
+                <h4>Laboratory Tests:</h4>
+                <ul>
+                    <li><strong>Hydrogen Breath Test:</strong> Measures H₂ production by colonic bacteria</li>
+                    <li><strong>Lactose Tolerance Test:</strong> Blood glucose rise <20 mg/dL after lactose load</li>
+                    <li><strong>Stool pH:</strong> <5.5 due to lactic acid production</li>
+                </ul>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>🔬 Comparative Laboratory Findings:</h3>
+                <table style="width:100%; border-collapse: collapse;">
+                    <tr style="background:#f1f5f9;">
+                        <th style="border:1px solid #cbd5e1; padding:10px;">Parameter</th>
+                        <th style="border:1px solid #cbd5e1; padding:10px;">Diabetes</th>
+                        <th style="border:1px solid #cbd5e1; padding:10px;">Lactose Intolerance</th>
+                    </tr>
+                    <tr>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Blood Glucose</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Elevated</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Normal</td>
+                    </tr>
+                    <tr>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Urine Glucose</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Present</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Absent</td>
+                    </tr>
+                    <tr>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Breath H₂</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Normal</td>
+                        <td style="border:1px solid #cbd5e1; padding:10px;">Elevated</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Clinical Correlation:</strong>
+            <p>Compare diagnostic approaches and laboratory findings for different carbohydrate metabolism disorders.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=Compare%20and%20contrast%20the%20laboratory%20findings%20for%20a%20patient%20with%20Diabetes%20Mellitus%20and%20a%20patient%20with%20Lactose%20Intolerance." target="_blank" class="ai-link">Analyze Clinical Cases</a>
+        </div>
+    </div>
+
+    <div class="part-header">
+        <h2>🧬 Part 2: Proteins - The Molecular Machines</h2>
+        <p>Exploring protein structure, function, and clinical applications in laboratory medicine</p>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 9</span>
+        <h2>Introduction to Proteins</h2>
+        <div class="detailed-content">
+            <p>Proteins are complex macromolecules composed of amino acids linked by peptide bonds. They are the most diverse and functionally important biological molecules.</p>
+            
+            <div class="key-points">
+                <h3>🔧 Protein Functions:</h3>
+                <ul>
+                    <li><strong>Catalytic:</strong> Enzymes accelerate biochemical reactions</li>
+                    <li><strong>Structural:</strong> Collagen, keratin provide mechanical support</li>
+                    <li><strong>Transport:</strong> Hemoglobin carries oxygen, albumin transports molecules</li>
+                    <li><strong>Defense:</strong> Antibodies protect against pathogens</li>
+                    <li><strong>Regulatory:</strong> Hormones like insulin control metabolism</li>
+                    <li><strong>Storage:</strong> Ferritin stores iron, casein stores amino acids</li>
+                    <li><strong>Movement:</strong> Actin and myosin enable muscle contraction</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🏥 Clinical Significance:</h3>
+                <p>Protein analysis in medical laboratories includes:</p>
+                <ul>
+                    <li><strong>Total protein:</strong> Nutritional and liver function assessment</li>
+                    <li><strong>Albumin:</strong> Liver synthesis and kidney function</li>
+                    <li><strong>Enzymes:</strong> Tissue damage markers (ALT, AST, CK)</li>
+                    <li><strong>Immunoglobulins:</strong> Immune system function</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 10</span>
+        <h2>Amino Acid Structure and Classification</h2>
+        <div class="detailed-content">
+            <div class="diagram-container">
+                <h3>🧱 General Amino Acid Structure</h3>
+                <div class="molecular-structure">
+        NH₂
+        |
+H₃N⁺—C—COO⁻  (Zwitterion form at physiological pH)
+        |
+        R
+
+Where R = side chain (determines properties)
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>📊 Classification by Side Chain Properties:</h3>
+                
+                <h4>🔵 Nonpolar (Hydrophobic):</h4>
+                <ul>
+                    <li><strong>Glycine (Gly, G):</strong> R = H</li>
+                    <li><strong>Alanine (Ala, A):</strong> R = CH₃</li>
+                    <li><strong>Valine (Val, V):</strong> R = (CH₃)₂CH</li>
+                    <li><strong>Leucine (Leu, L):</strong> R = (CH₃)₂CHCH₂</li>
+                    <li><strong>Phenylalanine (Phe, F):</strong> R = benzyl</li>
+                </ul>
+                
+                <h4>🟢 Polar (Hydrophilic):</h4>
+                <ul>
+                    <li><strong>Serine (Ser, S):</strong> R = CH₂OH</li>
+                    <li><strong>Threonine (Thr, T):</strong> R = CH(OH)CH₃</li>
+                    <li><strong>Tyrosine (Tyr, Y):</strong> R = benzyl-OH</li>
+                    <li><strong>Asparagine (Asn, N):</strong> R = CH₂CONH₂</li>
+                </ul>
+                
+                <h4>🔴 Charged:</h4>
+                <ul>
+                    <li><strong>Acidic:</strong> Aspartic acid (Asp), Glutamic acid (Glu)</li>
+                    <li><strong>Basic:</strong> Lysine (Lys), Arginine (Arg), Histidine (His)</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🍎 Essential vs. Non-essential Amino Acids:</h3>
+                <p><strong>Essential (9):</strong> Must be obtained from diet - His, Ile, Leu, Lys, Met, Phe, Thr, Trp, Val</p>
+                <p><strong>Non-essential (11):</strong> Can be synthesized by the body</p>
+                <p><strong>Conditionally essential:</strong> Required during illness, stress, or growth</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 11</span>
+        <h2>Peptide Bond Formation</h2>
+        <div class="detailed-content">
+            <div class="diagram-container">
+                <h3>🔗 Peptide Bond Chemistry</h3>
+                <div class="molecular-structure">
+Amino Acid 1    +    Amino Acid 2    →    Dipeptide    +    H₂O
+
+   NH₂                   NH₂                 NH₂
+   |                     |                   |
+H₂N-C-COOH    +    H₂N-C-COOH    →    H₂N-C-CO-NH-C-COOH    +    H₂O
+   |                     |                   |           |
+   R₁                    R₂                  R₁          R₂
+
+                    PEPTIDE BOND
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>⚡ Peptide Bond Characteristics:</h3>
+                <ul>
+                    <li><strong>Partial double bond character:</strong> C-N bond length = 1.32 Å (between single 1.49 Å and double 1.27 Å)</li>
+                    <li><strong>Planar structure:</strong> No rotation around C-N bond</li>
+                    <li><strong>Trans configuration:</strong> More stable than cis (except proline)</li>
+                    <li><strong>Resonance stabilization:</strong> Contributes to protein stability</li>
+                </ul>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>🧪 Laboratory Analysis:</h3>
+                <ul>
+                    <li><strong>Biuret Test:</strong> Detects peptide bonds (purple color)</li>
+                    <li><strong>Ninhydrin Test:</strong> Detects amino groups (blue/purple color)</li>
+                    <li><strong>Lowry Method:</strong> Protein quantification using peptide bonds</li>
+                    <li><strong>Bradford Assay:</strong> Protein quantification using dye binding</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 12</span>
+        <h2>The Four Levels of Protein Structure</h2>
+        <div class="detailed-content">
+            <div class="diagram-container">
+                <h3>🏗️ Hierarchical Organization</h3>
+                <div class="molecular-structure">
+PRIMARY (1°): Linear amino acid sequence
+- Determined by genetic code
+- Held by peptide bonds
+- Example: Insulin A-chain (21 amino acids)
+
+SECONDARY (2°): Local folding patterns  
+- α-helix: Right-handed spiral (3.6 residues/turn)
+- β-sheet: Extended strands (parallel/antiparallel)
+- β-turn: Reversal of direction
+- Stabilized by hydrogen bonds
+
+TERTIARY (3°): Overall 3D shape
+- Interactions between distant amino acids
+- Hydrophobic interactions, disulfide bonds
+- Salt bridges, hydrogen bonds
+- Determines biological activity
+
+QUATERNARY (4°): Multiple subunit assembly
+- Interactions between separate polypeptide chains
+- Example: Hemoglobin (2α + 2β subunits)
+                </div>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🩺 Clinical Example: Sickle Cell Anemia</h3>
+                <p><strong>Mutation:</strong> Glutamic acid → Valine at position 6 of β-globin</p>
+                <ul>
+                    <li><strong>Primary:</strong> Single amino acid change (Glu6Val)</li>
+                    <li><strong>Secondary:</strong> Altered local folding around mutation site</li>
+                    <li><strong>Tertiary:</strong> Changed surface properties (hydrophobic patch)</li>
+                    <li><strong>Quaternary:</strong> Abnormal protein-protein interactions</li>
+                    <li><strong>Result:</strong> Polymerization, cell sickling, vaso-occlusion</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Structure-Function Relationship:</strong>
+            <p>Explore how molecular changes cascade through protein structure levels to cause disease.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=Using%20the%20example%20of%20sickle%20cell%20anemia,%20explain%20how%20a%20change%20in%20primary%20structure%20affects%20all%20subsequent%20levels%20of%20protein%20structure%20and%20leads%20to%20disease." target="_blank" class="ai-link">Analyze Molecular Pathology</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 13</span>
+        <h2>Protein Denaturation</h2>
+        <div class="detailed-content">
+            <p>Denaturation is the disruption of protein structure without breaking peptide bonds, resulting in loss of biological activity.</p>
+            
+            <div class="key-points">
+                <h3>🌡️ Denaturing Agents:</h3>
+                <ul>
+                    <li><strong>Heat:</strong> Increases molecular motion, breaks weak interactions</li>
+                    <li><strong>pH extremes:</strong> Alters ionization states, disrupts salt bridges</li>
+                    <li><strong>Organic solvents:</strong> Disrupt hydrophobic interactions</li>
+                    <li><strong>Detergents:</strong> SDS disrupts protein structure</li>
+                    <li><strong>Chaotropic agents:</strong> Urea, guanidine HCl disrupt hydrogen bonds</li>
+                    <li><strong>Heavy metals:</strong> Bind to sulfur atoms, disrupt structure</li>
+                </ul>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>🧪 Laboratory Applications:</h3>
+                <ul>
+                    <li><strong>Protein Precipitation:</strong> TCA, ammonium sulfate for purification</li>
+                    <li><strong>SDS-PAGE:</strong> SDS denatures proteins for electrophoresis</li>
+                    <li><strong>Urea-PAGE:</strong> Urea for native gel electrophoresis</li>
+                    <li><strong>Heat Denaturation:</strong> Coagulation studies, enzyme inactivation</li>
+                    <li><strong>Acid Precipitation:</strong> Protein removal from samples</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🔬 Reversible vs. Irreversible:</h3>
+                <p><strong>Reversible:</strong> Mild conditions, can refold (renaturation)</p>
+                <p><strong>Irreversible:</strong> Harsh conditions, permanent loss of structure</p>
+                <p><strong>Clinical relevance:</strong> Fever can denature enzymes, affecting metabolism</p>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Laboratory Techniques:</strong>
+            <p>Learn about protein denaturation methods used in clinical diagnostics and research.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=List%20common%20reagents%20used%20in%20a%20clinical%20lab%20that%20can%20cause%20protein%20denaturation%20and%20explain%20how%20this%20principle%20is%20used%20in%20diagnostic%20tests." target="_blank" class="ai-link">Explore Lab Applications</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 14</span>
+        <h2>Enzymes - Biological Catalysts</h2>
+        <div class="detailed-content">
+            <p>Enzymes are proteins that catalyze biochemical reactions by lowering activation energy. They are essential for all metabolic processes.</p>
+            
+            <div class="diagram-container">
+                <h3>🔬 Enzyme-Substrate Interaction</h3>
+                <div class="molecular-structure">
+Lock and Key Model:
+E + S ⇌ ES → E + P
+
+Induced Fit Model:
+E + S ⇌ ES* → E + P
+(Enzyme changes shape upon substrate binding)
+
+Michaelis-Menten Kinetics:
+V = (Vmax × [S]) / (Km + [S])
+
+Where:
+V = reaction velocity
+Vmax = maximum velocity  
+Km = Michaelis constant
+[S] = substrate concentration
+                </div>
+            </div>
+            
+            <div class="key-points">
+                <h3>⚡ Factors Affecting Enzyme Activity:</h3>
+                <ul>
+                    <li><strong>Temperature:</strong> Increases activity until denaturation occurs</li>
+                    <li><strong>pH:</strong> Optimal pH for each enzyme (pepsin pH 2, trypsin pH 8)</li>
+                    <li><strong>Substrate concentration:</strong> Follows Michaelis-Menten kinetics</li>
+                    <li><strong>Inhibitors:</strong> Competitive, non-competitive, uncompetitive</li>
+                    <li><strong>Cofactors/Coenzymes:</strong> Required for activity (Mg²⁺, NAD⁺)</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🏥 Clinical Enzyme Markers:</h3>
+                <ul>
+                    <li><strong>ALT (Alanine Transaminase):</strong> Liver damage marker</li>
+                    <li><strong>AST (Aspartate Transaminase):</strong> Liver and heart damage</li>
+                    <li><strong>CK (Creatine Kinase):</strong> Muscle damage marker</li>
+                    <li><strong>LDH (Lactate Dehydrogenase):</strong> Tissue damage marker</li>
+                    <li><strong>Amylase:</strong> Pancreatic function</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 15</span>
+        <h2>Clinical Protein Analysis</h2>
+        <div class="detailed-content">
+            <div class="clinical-box">
+                <h3>🔬 Serum Protein Electrophoresis (SPE)</h3>
+                <p>SPE separates serum proteins based on charge and size, providing diagnostic information about protein disorders.</p>
+                
+                <div class="diagram-container">
+                    <h4>📊 Normal SPE Pattern:</h4>
+                    <div class="molecular-structure">
+Cathode (-)                           Anode (+)
+    |                                     |
+    γ    β    α₂   α₁   Albumin
+   IgG  IgA   Macro  Lipo   (55-65%)
+   IgM  Tf    globu  prot
+        C3    lins   eins
+        
+Normal Values:
+- Albumin: 3.5-5.0 g/dL
+- α₁-globulin: 0.1-0.3 g/dL  
+- α₂-globulin: 0.6-1.0 g/dL
+- β-globulin: 0.7-1.1 g/dL
+- γ-globulin: 0.7-1.6 g/dL
+                    </div>
+                </div>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>🧪 Interpretation Guidelines:</h3>
+                <ul>
+                    <li><strong>Low Albumin:</strong> Liver disease, malnutrition, kidney disease</li>
+                    <li><strong>α₁ increase:</strong> Acute inflammation</li>
+                    <li><strong>α₂ increase:</strong> Chronic inflammation, nephrotic syndrome</li>
+                    <li><strong>β increase:</strong> Iron deficiency, pregnancy</li>
+                    <li><strong>γ increase:</strong> Chronic infection, autoimmune disease</li>
+                    <li><strong>Monoclonal spike:</strong> Multiple myeloma, MGUS</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🩺 Case Study: Abnormal SPE Pattern</h3>
+                <p><strong>Findings:</strong> Low albumin peak, large broad peak in gamma region</p>
+                <p><strong>Interpretation:</strong></p>
+                <ul>
+                    <li><strong>Hypoalbuminemia:</strong> Possible liver cirrhosis, malnutrition</li>
+                    <li><strong>Polyclonal gammopathy:</strong> Chronic inflammation, autoimmune disease</li>
+                    <li><strong>Differential diagnosis:</strong> Chronic liver disease, rheumatoid arthritis, chronic infection</li>
+                    <li><strong>Follow-up tests:</strong> Liver function tests, inflammatory markers, immunoglobulin quantification</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Clinical Interpretation:</strong>
+            <p>Practice interpreting complex electrophoresis patterns and correlating with clinical conditions.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=Interpret%20a%20hypothetical%20serum%20protein%20electrophoresis%20(SPE)%20report%20showing%20a%20low%20albumin%20peak%20and%20a%20large,%20broad%20peak%20in%20the%20gamma%20region." target="_blank" class="ai-link">Analyze SPE Results</a>
+        </div>
+    </div>
+
+    <div class="part-header">
+        <h2>🤖 Part 3: The Future of BMLT with AI</h2>
+        <p>Integrating artificial intelligence into modern laboratory practice</p>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 16</span>
+        <h2>AI-Enhanced Laboratory Science</h2>
+        <div class="detailed-content">
+            <div class="key-points">
+                <h3>🚀 AI Applications in BMLT:</h3>
+                
+                <h4>📚 Instant Knowledge Access:</h4>
+                <ul>
+                    <li>Quick refreshers on complex biochemical pathways during lab work</li>
+                    <li>Molecular structure visualization and interpretation</li>
+                    <li>Real-time access to current research and protocols</li>
+                </ul>
+                
+                <h4>🧪 Protocol Assistance:</h4>
+                <ul>
+                    <li>Step-by-step guidance for complex laboratory procedures</li>
+                    <li>Automated calculations for molarity, dilutions, and concentrations</li>
+                    <li>Quality control recommendations and troubleshooting</li>
+                </ul>
+                
+                <h4>🏥 Clinical Correlation:</h4>
+                <ul>
+                    <li>Bridge the gap between laboratory results and clinical significance</li>
+                    <li>Pattern recognition in complex data sets</li>
+                    <li>Differential diagnosis support based on lab findings</li>
+                </ul>
+                
+                <h4>🔧 Troubleshooting:</h4>
+                <ul>
+                    <li>Identify potential causes for unexpected experimental results</li>
+                    <li>Suggest corrective actions for analytical problems</li>
+                    <li>Predictive maintenance for laboratory equipment</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>⚖️ Benefits and Limitations:</h3>
+                <p><strong>Benefits:</strong></p>
+                <ul>
+                    <li>24/7 availability for learning and problem-solving</li>
+                    <li>Consistent, evidence-based information</li>
+                    <li>Rapid processing of complex queries</li>
+                    <li>Continuous learning and knowledge updates</li>
+                </ul>
+                
+                <p><strong>Limitations:</strong></p>
+                <ul>
+                    <li>Requires human validation and oversight</li>
+                    <li>Cannot replace hands-on laboratory experience</li>
+                    <li>May not account for unique local conditions</li>
+                    <li>Ethical considerations in patient care decisions</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="ai-prompt">
+            <strong>💡 Future Perspectives:</strong>
+            <p>Explore the evolving role of AI in medical laboratory science and healthcare.</p>
+            <a href="https://aws.amazon.com/q/developer/?q=What%20are%20the%20potential%20benefits%20and%20limitations%20of%20using%20AI%20assistants%20like%20you%20in%20a%20medical%20laboratory%20setting?" target="_blank" class="ai-link">Discuss AI in Healthcare</a>
+        </div>
+    </div>
+
+    <div class="slide">
+        <span class="slide-number">Slide 17</span>
+        <h2>🎯 Course Summary and Future Directions</h2>
+        <div class="detailed-content">
+            <div class="key-points">
+                <h3>📋 Key Concepts Mastered:</h3>
+                
+                <h4>🍯 Carbohydrates:</h4>
+                <ul>
+                    <li>Structural diversity from monosaccharides to complex polysaccharides</li>
+                    <li>Stereochemistry and its clinical implications</li>
+                    <li>Laboratory methods for carbohydrate analysis</li>
+                    <li>Clinical applications in diabetes and metabolic disorders</li>
+                </ul>
+                
+                <h4>🧬 Proteins:</h4>
+                <ul>
+                    <li>Hierarchical organization of protein structure</li>
+                    <li>Structure-function relationships in health and disease</li>
+                    <li>Enzyme kinetics and clinical enzyme markers</li>
+                    <li>Protein analysis techniques and clinical interpretation</li>
+                </ul>
+            </div>
+            
+            <div class="clinical-box">
+                <h3>🚀 Your Future as a BMLT Professional:</h3>
+                <ul>
+                    <li><strong>Technical Excellence:</strong> Master both traditional and emerging laboratory techniques</li>
+                    <li><strong>Clinical Correlation:</strong> Understand the medical significance of your analytical work</li>
+                    <li><strong>Continuous Learning:</strong> Stay current with advancing technology and methodologies</li>
+                    <li><strong>AI Integration:</strong> Leverage artificial intelligence as a powerful learning and problem-solving tool</li>
+                    <li><strong>Quality Assurance:</strong> Maintain the highest standards of accuracy and precision</li>
+                </ul>
+            </div>
+            
+            <div class="lab-protocol">
+                <h3>📚 Recommended Next Steps:</h3>
+                <ol>
+                    <li><strong>Practice:</strong> Apply these concepts in laboratory exercises</li>
+                    <li><strong>Case Studies:</strong> Analyze real clinical scenarios</li>
+                    <li><strong>Research:</strong> Explore current literature in clinical biochemistry</li>
+                    <li><strong>Technology:</strong> Familiarize yourself with modern analytical instruments</li>
+                    <li><strong>Professional Development:</strong> Join professional organizations and attend conferences</li>
+                </ol>
+            </div>
+            
+            <div style="text-align: center; margin-top: 30px; padding: 25px; background: linear-gradient(135deg, #1e3a8a, #059669); color: white; border-radius: 12px;">
+                <h2>🎓 Congratulations!</h2>
+                <p style="font-size: 18px;">You have completed a comprehensive journey through biochemistry fundamentals. Your knowledge of carbohydrates and proteins, combined with modern AI tools, prepares you for success in biomedical laboratory technology.</p>
+                <p style="font-size: 20px; font-weight: bold;">Questions? Discussion? Let's explore further!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer style="text-align: center; margin-top: 40px; padding: 25px; background: #1e3a8a; color: white; border-radius: 12px;">
+        <h3>📧 Comprehensive Biochemistry Learning Experience</h3>
+        <p>🧬 Molecular Understanding • 🔬 Laboratory Excellence • 🤖 AI-Enhanced Learning</p>
+        <p><em>Preparing the next generation of biomedical laboratory professionals</em></p>
+    </footer>
+</body>
+</html>
